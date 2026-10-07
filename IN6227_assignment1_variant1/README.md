@@ -15,7 +15,7 @@ Compare scikit-learn logistic regression and random forest classifiers on the su
 7. Evaluate the fixed models once on the supplied labelled test rows. Use a prespecified 0.5 probability threshold. Report AP, ROC-AUC, accuracy, balanced accuracy, and positive-class precision, recall and F1. The all-no baseline is an arithmetic reference, not a third trained classifier.
 8. Use 1,000 paired IID bootstrap resamples of test rows to estimate percentile 95% CIs for AP and the RF-minus-LR AP difference. These intervals are conditional on the fitted models and do not measure variability from retraining or shifts in the data source.
 
-The data were inspected for basic quality in advance, including test summaries, but test results are not used to choose preprocessing, hyperparameters, features or thresholds. The experiment script reads test data only after all model configurations and the sensitivity check are complete. IID validation is an assumption because no entity identifiers, timestamps or provenance are supplied.
+The data were inspected for basic quality in advance, including test summaries, but test results are not used to choose preprocessing, hyperparameters, features or thresholds. 
 
 ## Outputs
 
