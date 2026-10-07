@@ -26,6 +26,5 @@ The data were inspected for basic quality in advance, including test summaries, 
 - `results/test_metrics.csv`: final metric table.
 - `results/test_predictions.csv`: per-row probabilities and decisions, with source CSV row numbers.
 - `results/comparison.png` / `.svg`: precision-recall curves and confusion matrices.
-- `output/word/IN6227-Assignment-1.doc`: two-page English Word report following the supplied course template.
-- `output/word/IN6227-Assignment-1.docx`: the same report in the current Word format.
+
 
